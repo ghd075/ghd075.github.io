@@ -1,2 +1,2 @@
-# ghd075-gmail.com
+# 개인 블로그
 My Blog
