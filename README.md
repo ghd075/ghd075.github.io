@@ -1,23 +1,35 @@
-# Codinfox-Lanyon
+# Landing Page Jekyll theme
 
-This is a jekyll template based on [Lanyon](https://github.com/poole/lanyon). See a live demo [here](http://codinfox.github.io).
+Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
 
-**If you like this project, PLEASE give it a star.**
+## How to use
+ - Place a image in `/img/services/`
+ - Create posts to display your services. Use the follow as an example:
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+```txt
+---
+layout: default
+img: ipad.png
+category: Services
+title: The service title
+---
+The description of this service
+```
 
-All the configurations are inside either `_config.yml` or `_config.scss`. The options are fairly straightforward. 
+## Demo
+View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
 
-The theme supports: 
+## Screenshot
+![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
 
-1. Theme colors: you can choose your favorite theme color
-2. Changable sidebar locations
-3. Integration of FontAwesome, MathJax, Disqus and Google Analytics
-4. and numerous improvements over original Lanyon
+===
 
+For more Jekyll details, read [documentation](http://jekyllrb.com/).
+This Jekyll theme used [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme/) as reference.
 
 ## License
+The contents of this repository are licensed under the [Apache
+2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 
-Open sourced under the [MIT license](LICENSE.md).
-
-<3
+## Version
+1.0.1
